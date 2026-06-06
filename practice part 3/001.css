@@ -1,0 +1,131 @@
+body{
+    background-color: gainsboro;
+}
+.head{
+    background-color: rgb(3, 7, 71);
+    color: white;
+}
+.maintext{
+    display: flex;
+    margin: 25px   ;
+    margin-top: 3px;
+    margin-bottom: -18px;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+.searchbar{
+    display: flex;
+    margin-top: -50px;
+    padding-left: 400px;
+    width: 80%;
+    
+}   
+.B{
+    display:flex;
+    list-style:none;
+    float: right;
+    gap: 35px;
+    margin-right:40px;
+    margin-top: -30px;
+}
+.C{
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 15px;
+
+}
+.body{
+    
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+    padding-top: 50px;
+
+}
+
+.part1{
+        box-shadow: 1px;
+    width: 600px;
+    height:520px ;
+ 
+ 
+
+}
+
+.part2{
+        background-color: white;
+    width: 595px;
+    height:615px ;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    
+
+}
+.img1{
+    
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.IA{
+    background-color: white;
+    width:90 ;
+    height: 90;
+    border-radius: 10px;
+}
+
+.IB{
+    background-color: white;
+    width:90 ;
+    height: 90;
+    border-radius: 10px;
+}
+
+.IC{
+    background-color: white;
+    width:90 ;
+    height: 90;
+    border-radius: 10px;
+}
+
+.ID{
+    background-color: white;
+    width:90 ;
+    height: 90;
+    border-radius: 10px;
+}
+
+.IE{
+    background-color: white;
+    width:90 ;
+    height: 90;
+    border-radius: 10px;
+}
+
+.IF{
+    background-color: white;
+    width:90 ;
+    height: 90;
+    border-radius: 10px;
+}
+
+.subpart{
+    
+    display: flex;
+    gap: 30px;
+     margin-top: -86px;
+     margin-left: 130px;
+     width: 600px;
+     height: 90px;
+     padding-left: 2px ;
+     padding: 8px 2px 1px 15px;
+}
+
+.maintext2{
+    font-size: 30px;
+    font-family: Arial;
+    
+}
