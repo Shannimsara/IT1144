@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+  
+    
+}
+.home-main{
+    display: flex;
+    padding: 10px ;
+    background-color: #EFE9DB;
+    box-shadow: 0px 1px 2px rgb(224, 201, 191);
+}
+
+.text-logo{
+    padding: 13px 15px;
+    flex: 2;
+    
+}
+.head{
+    flex: 7;  
+    
+}
+.list1{
+    list-style: none;
+}
+.ul-list{
+    display: flex;
+    justify-content:flex-end;
+    gap: 30px;
+    padding: 15px 140px;
+    align-item: center;
+    
+}
+.text{
+    text-decoration: none;
+    color: rgb(76, 22, 3);
+}
+.text:hover{
+
+    color: grey;
+   
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.text2{
+    margin-top: -12px;
+    text-decoration: none;
+    color: rgb(255, 251, 249);
+   background-color: #6c1a03;
+   padding: 14px;
+   border-radius: 7px;
+}
+.text2:hover{
+    background-color: #cf5712;
+    padding: 14px;
+    transition: 0.3s;
+    transform:perspective(1.2rem);
+}
+.home-image{
+    text-align: center;
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('book.jpg') no-repeat center center/cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(237, 231, 231);
+    padding: 30px;
+    height: 450px;
+}
+.home-image h1{
+        color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.home-image a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgb(13, 89, 13);
+}
+.home-image a:hover{
+    background-color: #11803a;
+}
+.t2-text{
+    margin-top: 35px;
+    text-align: center;
+}
+.cards{
+   
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    row-gap: 20px;
+}
+.cards-1{
+    line-height: 20px;
+    background-color: #EFE9DB;
+    padding: 30px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #d39c68;
+    text-align: center;
+    cursor: pointer;
+    
+   
+}
+
+.cards-1:hover{
+     transition: 0.5s;
+    transform: scale(1.04);
+    background-color: #f1ddce;
+}
+.main-3{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('part1.jpg');
+   margin-top: 50px;
+    height: 400px;
+    border-radius: 8px;
+}
+.info-box{
+    text-align: center;
+      color: aliceblue;
+  font-size: 23px;
+  padding-top: 100px;
+
+  
+}
+.cards-1 img{
+    border-radius: 8px;
+}
+footer {
+    background-color: #2C2520;
+    color: #EFE9DB;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.85rem;
+    margin-top: 120px;
+    position: sticky;
+}
+/* second page */
+.browse{
+    display: flex;
+    
+   
+}
+.sidebar{
+    flex: 1;
+}
+.main-catalog{
+    flex: 4;
+    margin-top: 60px; 
+
+}
+.r-cards{
+    background: white;
+    border: 1px solid #E2D9C5;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    float: inline-start;
+   margin-right: 30px;
+   padding-left: 19px; 
+    margin-bottom: 30px; 
+    row-gap: 6px;
+}
+
+.r-cards:hover{
+    transition: 0.5s;
+    transform: scale(1.04);
+}
+.resive-book{
+      padding: 10px;
+    margin-top: 30px;
+     border-radius: 7px;
+}
+
+
+.browse-btn{
+     margin-top: 0px;
+    cursor: pointer;
+    color: rgb(249, 245, 243);
+   background-color: #045f26;
+   padding: 10px 15px;
+   border-radius: 7px;
+}
+.browse-btn:hover{
+    background-color: #011602;
+    transition: 0.7s;
+    transform:perspective(1.5rem);
+}
+.r-cards img {
+     border-radius: 7px;
+}
+.sidebar {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+}
+.sidebar ul{
+    margin-top: 80px;
+}
+
+.sidebar ul li{
+    padding-left: 20%;
+    margin-top: 30px;
+    font-size: large;
+    border-bottom: 1px solid rgb(168, 101, 60) ;
+    cursor: pointer;
+}
+.current{
+    padding-left: 20%;
+    margin-top: 50px;
+    font-size:x-large;
+
+   }
+.sidebar li:hover {
+    color: #4A6B53;
+}
+/* event page starts here*/
+
+.event-main{
+   
+    display: flex;
+    gap: 50px;
+    padding: 50px 10%;
+    align-items: center;
+}
+.event-part1{
+    flex: 1;
+    margin-top: 43px;   
+}
+.event-part2{
+    padding-left: 30px;
+    margin-top: 30px;
+    flex: 1;
+}
+.event-part1 p {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.event-part1 h3 {
+    margin-top: 10px;
+}
+.event-date{
+   
+    color: rgb(176, 71, 6);
+    font-weight:bold;
+}
+.event-part2 img{
+    border-radius: 8px;
+    box-shadow: 0px 5 px 15px rgba(0,0,0, 0.5);
+}
+.event-text1{
+    border-bottom: 1px solid rgb(205, 123, 76);
+     margin-bottom: 5px;
+}
+/* contact page */
+
+.contact-main{
+    display: flex;
+    gap: 50px;
+    padding: 50px 10%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+   
+}
+.contact-part1{
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(148, 62, 15);
+    border-radius: 8px;
+    flex:1; 
+}
+
+.contact-part2{
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("que.jpg");
+   width: 500px;
+    height: 500px;
+     border-radius: 8px;
+     border: 1px solid rgb(148, 62, 15);
+    flex:1;
+}
+.contact-part2 h1{
+      margin-top: 180px; 
+      color: rgb(255, 255, 255); 
+}
+.contact-part1 form {
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+.form-group input,textarea{
+    margin-top: 25px;
+    width: 90%;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid rgb(148, 62, 15);
+    padding-left: 5px;
+}
+/* signin page starts here */
+
+.sign-main{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+  
+}
+.sign-main fieldset{
+    margin: 40px;
+    padding: 30px;
+      border-radius: 8px;
+}
+.sign-btn{
+    color: aliceblue;
+    background-color: #11803a;
+    width: 90%;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid rgb(11, 88, 11);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+    cursor: pointer;  
+}
+.sign-btn:hover{
+    background-color: #10ca55;
+   transition: 0.4s;
+}
+.sign-text4{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.sign-text{
+    text-align: center;
+}
+
+body{
+    background-color: #f8f7f5;
+}

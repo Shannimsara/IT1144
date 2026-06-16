@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="home-main">
+        <div class="logo">
+            <img src="logo.jpg" width="50px" height="50px">
+        </div>
+        <div class="text-logo"> 
+            <h3>the city bookshop</h3>
+        </div>
+        <nav class="head">
+            <ul class="ul-list">
+                <li class="list1" ><a class="text" href="home.html"> Home</a></li>
+                <li class="list1" ><a class="text" href="browse.html"> Browse</a></li>
+                <li class="list1" ><a class="text" href="event.html">event </a></li>
+                <li class="list1" ><a class="text" href="contact.html">Contact </a></li>
+                <a class="text2" href="signin.html">Sign in </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="sign-main">
+        <fieldset>
+            <div class="sign-text">
+                <h2 style="text-align: center;" id="java-heading">Welcome Back, Reader!</h2><br>
+            <p style="text-align: center; margin-bottom: 25px; color: #666; font-size: 1rem;">Sign in to access your digital bookshelf and tracking dashboard.</p>
+ 
+            </div><br>
+            <div class="form-group">
+                <label for="login-email" style="font-family: Arial, sans-serif;">Email Address</label>
+                <input type="email" id="login-email" placeholder="you@example.com" required>
+            </div><br>
+
+            <div class="form-group">
+                 <label for="login-pass" style="font-family: Arial, sans-serif;">Password</label>
+                    <input type="password" id="login-pass" placeholder="••••••••" required>
+            </div><br>
+            <input type="checkbox" value="shan " name="n1"> Keep me signed in </input>
+            <br><br>
+            <button id=java-btn onclick="changetext2()" class="sign-btn"> sign in </button>
+            <div class="sign-text4" style="font-family: Arial, sans-serif;">
+                <p>New to the shop? <a href="#" style="text-decoration: none; color: rgb(199, 87, 22);" >Create an account</a></p>
+            </div>
+        </fieldset>
+    </div>
+      <footer>
+        <p>&copy; 2026 The City Bookshop | 14 Main St, Kandy</p>
+   
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
